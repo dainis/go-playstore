@@ -27,6 +27,12 @@
 			"path": "github.com/stretchr/testify/assert",
 			"revision": "1f4a1643a57e798696635ea4c126e9127adb7d3c",
 			"revisionTime": "2016-02-21T10:44:43Z"
+		},
+		{
+			"checksumSHA1": "xjDXDXUljkSvJXm+sk+UY3ukBN0=",
+			"path": "github.com/tj/go-debug",
+			"revision": "ff4a55a20a86994118644bbddc6a216da193cc13",
+			"revisionTime": "2014-10-22T19:30:16Z"
 		}
 	],
 	"rootPath": "github.com/dainis/go-googleplay"
