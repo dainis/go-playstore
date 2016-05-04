@@ -10,7 +10,7 @@ import (
 func createClient() *Playstore {
 	c, err := New(os.Getenv("PLAYSTORE_EMAIL"), os.Getenv("PLAYSTORE_PASSWORD"), os.Getenv("ANDROID_ID"))
 	if err != nil {
-		log.Panicf("Failed to create client %e\n", err)
+		log.Panicf("Failed to create client %s \n", err)
 	}
 	return c
 }

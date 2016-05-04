@@ -17,3 +17,12 @@ func TestDownload(t *testing.T) {
 	assert.NotNil(t, pkg)
 	assert.Equal(t, len(pkg) > 10000, true)
 }
+
+func TestPhonyDownload(t *testing.T) {
+	c := createClient()
+
+	pkg, err := c.DownloadPackage("trololo.trololo.com", 123)
+
+	assert.Nil(t, pkg)
+	assert.Error(t, err)
+}

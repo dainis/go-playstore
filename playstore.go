@@ -126,7 +126,7 @@ func (p *Playstore) makeApiRequest(endpoint string, query url.Values, body []byt
 	res, err := p.client.Do(req)
 
 	if err != nil {
-		d("Failed to make request to %s %e", u, err)
+		d("Failed to make request to %s %s", u, err)
 		return nil, err
 	}
 
@@ -135,14 +135,14 @@ func (p *Playstore) makeApiRequest(endpoint string, query url.Values, body []byt
 	b, err := ioutil.ReadAll(res.Body)
 
 	if err != nil {
-		d("Failed to read response from %s %e", u, err)
+		d("Failed to read response from %s %s", u, err)
 		return nil, err
 	}
 
 	respWrapper := &play.ResponseWrapper{}
 
 	if err := proto.Unmarshal(b, respWrapper); err != nil {
-		d("Failed to unmarshall response %s %e", u, err)
+		d("Failed to unmarshall response %s %s", u, err)
 		return nil, err
 	}
 

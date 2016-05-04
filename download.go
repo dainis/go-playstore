@@ -56,7 +56,7 @@ func (p *Playstore) DownloadPackage(pkg string, versionCode int) ([]byte, error)
 	res, err := p.client.Do(req)
 
 	if err != nil {
-		d("Failed to execute download request for %s %e", pkg, err)
+		d("Failed to execute download request for %s %s", pkg, err)
 		return nil, err
 	}
 
