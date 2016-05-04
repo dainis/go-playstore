@@ -891,7 +891,7 @@ message AppDetails {
     repeated string appCategory = 7;
     optional int32 contentRating = 8;
     optional int64 installationSize = 9;
-    repeated string oBSOLETEPermission = 10;
+    repeated string permission = 10;
     optional string developerEmail = 11;
     optional string developerWebsite = 12;
     optional string numDownloads = 13;
@@ -901,7 +901,6 @@ message AppDetails {
     repeated FileMetadata file = 17;
     optional string appType = 18;
     repeated string certificateHash = 19;
-    repeated AppPermission permission = 20;
     optional bool variesByAccount = 21;
     repeated CertificateSet certificateSet = 22;
     repeated string autoAcquireFreeAppIfHigherVersionAvailableTag = 23;
