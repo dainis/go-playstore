@@ -3,7 +3,7 @@ package playstore
 import (
 	"bytes"
 	"errors"
-	play "github.com/dainis/go-googleplay/protobuf"
+	play "github.com/dainis/go-playstore/protobuf"
 	proto "github.com/golang/protobuf/proto"
 	"github.com/tj/go-debug"
 	"io/ioutil"

@@ -3,30 +3,30 @@
 	"ignore": "test",
 	"package": [
 		{
-			"checksumSHA1": "jqSVRDK7dGg6E/NikVq1Kw6gdbA=",
+			"checksumSHA1": "5rPfda8jFccr3A6heL+JAmi9K9g=",
 			"origin": "github.com/stretchr/testify/vendor/github.com/davecgh/go-spew/spew",
 			"path": "github.com/davecgh/go-spew/spew",
-			"revision": "1f4a1643a57e798696635ea4c126e9127adb7d3c",
-			"revisionTime": "2016-02-21T10:44:43Z"
+			"revision": "d77da356e56a7428ad25149ca77381849a6a5232",
+			"revisionTime": "2016-06-15T09:26:46Z"
 		},
 		{
-			"checksumSHA1": "Ph3AzJaMHZxUdyqWL+Lx3CufxRw=",
+			"checksumSHA1": "piwYMQqpsfAur670v6rFg6gqk/c=",
 			"path": "github.com/golang/protobuf/proto",
-			"revision": "552c7b9542c194800fd493123b3798ef0a832032",
-			"revisionTime": "2016-02-26T01:45:00Z"
+			"revision": "874264fbbb43f4d91e999fecb4b40143ed611400",
+			"revisionTime": "2016-07-11T13:55:00Z"
 		},
 		{
 			"checksumSHA1": "zKKp5SZ3d3ycKe4EKMNT0BqAWBw=",
 			"origin": "github.com/stretchr/testify/vendor/github.com/pmezard/go-difflib/difflib",
 			"path": "github.com/pmezard/go-difflib/difflib",
-			"revision": "1f4a1643a57e798696635ea4c126e9127adb7d3c",
-			"revisionTime": "2016-02-21T10:44:43Z"
+			"revision": "d77da356e56a7428ad25149ca77381849a6a5232",
+			"revisionTime": "2016-06-15T09:26:46Z"
 		},
 		{
-			"checksumSHA1": "Bn333k9lTndxU3D6n/G5c+GMcYY=",
+			"checksumSHA1": "iydUphwYqZRq3WhstEdGsbvBAKs=",
 			"path": "github.com/stretchr/testify/assert",
-			"revision": "1f4a1643a57e798696635ea4c126e9127adb7d3c",
-			"revisionTime": "2016-02-21T10:44:43Z"
+			"revision": "d77da356e56a7428ad25149ca77381849a6a5232",
+			"revisionTime": "2016-06-15T09:26:46Z"
 		},
 		{
 			"checksumSHA1": "xjDXDXUljkSvJXm+sk+UY3ukBN0=",
@@ -35,5 +35,5 @@
 			"revisionTime": "2014-10-22T19:30:16Z"
 		}
 	],
-	"rootPath": "github.com/dainis/go-googleplay"
+	"rootPath": "github.com/dainis/go-playstore"
 }

@@ -8,6 +8,12 @@ import (
 )
 
 func createClient() *Playstore {
+	for _, key := range []string{"PLAYSTORE_EMAIL", "PLAYSTORE_PASSWORD", "ANDROID_ID"} {
+		if os.Getenv(key) == "" {
+			log.Fatalf("Set %s", key)
+		}
+	}
+
 	c, err := New(os.Getenv("PLAYSTORE_EMAIL"), os.Getenv("PLAYSTORE_PASSWORD"), os.Getenv("ANDROID_ID"))
 	if err != nil {
 		log.Panicf("Failed to create client %s \n", err)
